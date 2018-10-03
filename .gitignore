@@ -1,0 +1,4 @@
+\.idea/
+project/react_app/build/
+project/react_app/node_modules
+venv
