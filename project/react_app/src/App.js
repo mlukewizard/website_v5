@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import TopBar from './top_bar';
 
 class App extends React.Component {
     constructor(props){
@@ -11,10 +12,9 @@ class App extends React.Component {
 
     render() {
         return (
-            // WRAP BROWSERROUTER AROUND YOUR WHOLE APP
             <BrowserRouter>
                 <div>
-                    <h1>Example</h1>
+                    <TopBar />
                 </div>
             </BrowserRouter>
         );
